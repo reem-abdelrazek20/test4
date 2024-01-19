@@ -1,0 +1,48 @@
+
+@media (max-width :357px) {
+.screen{flex-direction: column;
+        align-items: flex-start;position: absolute;}
+.page .color{width: 182px;height: 500px;}
+.page .color .phone{width: 250px;
+        margin-left: 50px;
+        height: 600px;}
+.page .color .phone .in-phone{width: 228px;
+        height: 560px;
+        margin: 10px;
+        margin-top: 20px;
+        border-radius: 20px;}
+.page .color .phone .in-phone  header{width: 228px;}
+.phone .in-phone .speak1 .one ,.phone .in-phone .speak1 .two{width: 140px;
+        margin: 10px;
+        padding: 2px 10px;
+        font-size: 10px;}
+.phone .in-phone .speak2 .img img {width: 50px;
+            margin: 5px;}
+.phone .in-phone .speak2 .one2 ,.phone .in-phone .speak2 .two2  {
+            width: 150px;
+            margin: 5px 10px;
+            font-size: 10px;
+            padding: 10px 0 5px 20px  }
+.phone .in-phone .speak2 .two2 {width: 100px;}
+.phone .in-phone .speak3 .one3{ width: 120px;
+                margin: 20px 10px;
+                font-size: 10px;
+                padding: 10px 20px 5px 20px; }
+.phone .in-phone .speak3  .re{ width: 200px;
+    margin: 10px 5px;
+    border-radius: 10px 10px 5px 20px;
+    font-size: 10px}
+.page .phone .in-phone .try{  width: 200px; font-size: 10px;}
+
+.screen .part{margin-top: 200px;
+text-align: center;
+margin-left: 50px;
+width: 100px;}
+.screen .part h1{width: 250px;
+    font-size: 30px;}
+.screen .part p{width: 250px;
+        line-height: 25px;
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+}

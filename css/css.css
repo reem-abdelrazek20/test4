@@ -1,0 +1,139 @@
+*{margin: 0;
+padding: 0;
+font-family: 'Rubik', sans-serif;
+box-sizing: border-box;
+ -webkit-box-sizing: border-box; 
+-moz-box-sizing: border-box;
+}
+.screen{background-color: #FAFAFA;display: flex; align-items: center;position: relative;}
+.page .color { background: linear-gradient( hsl(293, 100%, 63%)  , hsl(264, 100%, 61%));
+width: 400px;
+height: 800px;
+border-bottom-right-radius: 350px;
+border-bottom-left-radius: 20px;
+position: relative;
+margin-right: 309px;}
+.page .color .phone{
+    width: 400px;
+    height: 750px;
+    background-color: white;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 30%;
+    border-radius: 25px
+}
+.page .color .phone .in-phone{  background-color: #F5F3F8;
+    width: 380px;
+    height: 700px;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.page .color .phone .in-phone header{
+    width: 380px;
+    height: 70px;
+    background: linear-gradient( hsl(293, 100%, 63%) , hsl(264, 100%, 61%));
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.page .color .phone .in-phone header .in-header .img{display: flex;
+    align-items: center;
+    margin-top: 10px;padding-top: 20px}
+.page .color .phone .in-phone header .in-header .top{ background-color: white;
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50% ,-50%);
+    width: 140px;
+    height: 39px;
+    border-radius: 20px;
+    border-style: none}
+.page  .color .phone .in-phone header .img i{color: white;margin-left: 8px;} 
+.page .color .phone .in-phone header .img img{width: 30px;border-style:solid ;
+    border-color:white ;
+border-radius: 50%;
+margin-left: 10px;}
+.page .color .phone .in-phone header .img .test{display: flex;flex-wrap: wrap;flex-direction: column
+    ;margin-left: 10px;}
+.page .color .phone .in-phone header .img .test .t h1 {font-size: 16px;
+color: white;
+font-weight: bold;}
+.page .color .phone .in-phone header .img .test .t  p{font-size: 10px;
+    margin-top: 3px;
+    color: #d1bebe;
+}
+.phone .in-phone .speak1 .one ,.phone .in-phone .speak1 .two {color: #9f06e1;
+    background-color: #E5D1F3;
+    width: 170px;
+    border-radius: 15px;margin: 10px;
+padding: 2px 20px;
+ font-size: 16px;
+;}
+.phone .in-phone .speak2  .img{display: flex;
+    justify-content: flex-end;}
+.phone .in-phone .speak2 .img img {width: 70px;
+    margin: 10px;
+    border-radius: 20px;
+} 
+.phone .in-phone .speak2 .s{display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;;
+    align-items: flex-end;
+;}
+.phone .in-phone .speak2 .one2 ,.phone .in-phone .speak2 .two2{
+    color: #856E98;
+    background-color: white;
+    width: 190px;
+    border-radius: 15px;
+    margin: 5px 10px;
+    font-size: 16px;
+    padding: 10px 10px 5px 20px;}
+
+
+.phone .in-phone .speak3 .one3{color: #9f06e1;
+    background-color: #E5D1F3;
+    width: 200px;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 10px 10px 10px 20px;
+}
+.phone .in-phone .speak3  .re{background-color: #B53FFD;
+    height: 40px;
+    width: 200px;
+    margin: 10px 20px;
+    border-radius: 30px;
+}
+.phone .in-phone .speak3 .re .in-re{    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;}
+.phone .in-phone .speak3 .re .in-re .c{width: 10px;
+height: 10px;border-style: solid;border-color: #d1bebe;
+border-radius :50% ;}
+.phone .in-phone .speak3 .re .in-re p{margin-top: 10px;color: #EFECF2;}
+.phone .in-phone .speak3 .re .in-re .price{margin-top: 10px;color: #EFECF2; font-weight: bold;font-size: 16px;}
+
+.page .phone .in-phone .try {display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 350px;
+    height: 35px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+.page .phone .in-phone .try p{color: rgb(102, 99, 99);}
+.screen .part h1{color: #422658;
+    text-transform: initial;
+    letter-spacing: 0.9px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.screen .part p{color: #B1AFB4;
+    font-size: 16px;
+    width: 400px;
+    line-height: 25px;
+}
+
